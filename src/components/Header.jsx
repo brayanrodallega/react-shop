@@ -15,7 +15,10 @@ const Header = () => {
             <a href="/">Clothes</a>
           </li>
           <li>
-            <a href="/">Electrionics</a>
+            <a href="/">Electronics</a>
+          </li>
+          <li>
+            <a href="/">Furnitures</a>
           </li>
           <li>
             <a href="/">Toys</a>
@@ -27,10 +30,7 @@ const Header = () => {
       </div>
       <div className="navbar-right">
         <ul>
-          <li className="navbar-email">
-            brayan@example.com
-            <img src="./icons/flechita.svg" alt="flecha" />
-          </li>
+          <li className="navbar-email">platzi@example.com</li>
           <li className="navbar-shopping-cart">
             <img src="./icons/icon_shopping_cart.svg" alt="shopping cart" />
             <div>2</div>

@@ -1,27 +1,27 @@
 @use "./vars";
 
-.containers {
+.NotFound-container {
   width: 100%;
   height: 100vh;
-  display: grid;
-  place-items: center;
 }
 
-#sub-containers {
+.NotFound-sub-container {
   width: 100%;
   height: 100vh;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.titles {
+.NotFound-title {
   font-size: 100px;
   margin: 0;
   text-align: center;
   color: var(--hospital-green);
 }
 
-.subtitles {
+.NotFound-subtitle {
   color: var(--very-light-pink);
   font-size: var(--md);
   font-weight: 400;

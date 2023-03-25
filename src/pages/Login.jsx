@@ -3,8 +3,8 @@ import "../styles/Login.scss";
 
 const Login = () => {
   return (
-    <div className="login">
-      <div className="form-container">
+    <div className="Login">
+      <div className="Login-container">
         <img src="./logos/logo_yard_sale.svg" alt="logo" className="logo" />
         <form action="/" className="form">
           <label htmlFor="email" className="label">
@@ -13,7 +13,7 @@ const Login = () => {
           <input
             type="text"
             id="email"
-            placeholder="brayan@example.com"
+            placeholder="platzi@example.cm"
             className="input input-email"
           />
           <label htmlFor="password" className="label">
@@ -27,7 +27,7 @@ const Login = () => {
           />
           <input
             type="submit"
-            defaultValue="Log in"
+            value="Log in"
             className="primary-button login-button"
           />
           <a href="/">Forgot my password</a>
