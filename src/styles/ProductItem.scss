@@ -15,6 +15,9 @@
   align-items: center;
   margin-top: 12px;
 }
+.product-info figure img:hover {
+  cursor: pointer;
+}
 .product-info figure {
   margin: 0;
 }
