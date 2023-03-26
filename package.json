@@ -1,4 +1,5 @@
 {
+  "homepage": "https://brayanrodallega.github.io/react-shop",
   "name": "react-shop",
   "version": "1.0.0",
   "description": "react shop",
@@ -32,6 +33,7 @@
   },
   "devDependencies": {
     "css-loader": "^6.7.3",
+    "gh-pages": "^5.0.0",
     "mini-css-extract-plugin": "^2.7.5",
     "sass": "^1.59.3",
     "sass-loader": "^13.2.1",
