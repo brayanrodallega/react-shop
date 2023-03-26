@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/CreateAccount.scss";
+import "@styles/CreateAccount.scss";
 
 const CreateAccount = () => {
   return (
@@ -14,7 +14,7 @@ const CreateAccount = () => {
             <input
               type="text"
               id="name"
-              placeholder="Teff"
+              placeholder="Brayan"
               className="input input-name"
             />
             <label for="email" className="label">
@@ -23,7 +23,7 @@ const CreateAccount = () => {
             <input
               type="text"
               id="email"
-              placeholder="platzi@example.com"
+              placeholder="brayan@example.com"
               className="input input-email"
             />
             <label for="password" className="label">
